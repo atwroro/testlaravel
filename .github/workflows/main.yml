@@ -45,7 +45,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           rm: true
           source: "./"
-          target: "/opt/api_blockchain.github/"
+          target: "/home/dieptrd/api_blockchain.github/"
 
       - name: Deploy to server
         uses: garygrossgarten/github-action-ssh@release
